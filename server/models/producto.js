@@ -16,6 +16,10 @@ let productoSchema = new Schema({
         type: String,
         required: false
     },
+    img: {
+        type: String,
+        required: false
+    }, //no es obligatoria
     disponible: {
         type: Boolean,
         required: true,
